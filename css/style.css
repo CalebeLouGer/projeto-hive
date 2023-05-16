@@ -1,0 +1,14 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+.img-logo{
+    width: 100px;
+    height: 100px;
+}
+#login img{
+    width: 500px;
+    height: 500px;
+}
