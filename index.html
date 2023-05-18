@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hive</title>
+    <title>Login Hive</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,8 +34,8 @@
 
 
           <div class="row align-items-center d-flex justify-content-center">
-              <div class="col-md-5 text-center">
-                  <img src="./img/foto-login.png" alt="">
+              <div class="col text-center">
+                  <img class="img-fluid"src="./img/foto-login.png" alt="">
               </div>
 
 
@@ -51,18 +51,29 @@
                   </div>
                   <form>
                       <div class="mb-3">
-                          <label for="name" class="form-label">Nome</label>
-                          <input type="text" class="form-control" id="nome">
+                          <label for="name" class="form-label">Usuário</label>
+                          <input type="text" class="form-control" id="nome" value="CalebeLouGer">
                       </div>
                       <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1">
+                        <label for="exampleInputPassword1" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" value="123456">
                       </div>
-                      <div class="mb-3">
-                          <label for="exampleFormControlTextarea1" class="form-label">Comentário</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      <div class="row">
+                        <div class="col-4">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <label class="form-check-label" for="gridCheck">
+                                Relembrar
+                              </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <a href="login.html" class=" d-flex justify-content-end">Esqueci minha Senha</a>
+                        </div>
                       </div>
-                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <div class="p-md-2 text-center">
+                        <a class="btn px-md-4" style="background-color: #9869F4; color: white;">Entrar</a>
+                      </div>
                     </form>
               </div>
           </div>
